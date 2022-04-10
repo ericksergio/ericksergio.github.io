@@ -1,0 +1,53 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(10, 10, 45);
+    border-bottom: 10px solid  black;
+    padding: 10px 20px;
+}
+
+h1{
+    color: white;
+}
+
+nav{
+    text-align: right;
+}
+
+
+
+a{
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Fira Code", "Helvetica Neue",sans-serif;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+a::before{
+    content: "";
+    background-color:red;
+    height: 10px;
+    width: 10px;
+    margin-right: 10px;
+}
+
+#button{
+    display: inline-block;
+    background-color: #eb3f3f;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 0 black;
+    margin:0;
+}
+
+#button:hover{
+    background-color:rgb(138, 28, 28);
+    transition: 0.5s;
+    
+}
